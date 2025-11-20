@@ -1,1 +1,23 @@
-@import "./lib/styles/global.css";
+@import "tailwindcss";
+
+@theme {
+  /* カスタムカラーの定義 (v4方式) */
+  --color-primary: #2563eb;  /* blue-600 */
+  --color-secondary: #475569; /* slate-600 */
+  --color-accent: #0f172a;    /* slate-900 */
+
+  /* フォントの定義 */
+  --font-sans: "Helvetica Neue", "Arial", "Hiragino Kaku Gothic ProN", sans-serif;
+  
+  /* 必要であればブレークポイントなどもここで上書き可能 */
+  /* --breakpoint-xs: 480px; */
+}
+
+/* グローバルスタイル */
+body {
+  /* v4ではテーマ変数をCSS変数として直接使えます */
+  background-color: var(--color-gray-50); 
+  color: var(--color-slate-800);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
