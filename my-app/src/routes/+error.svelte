@@ -10,12 +10,12 @@
 
 	const errorContent = {
 		404: {
-			title: 'Page Not Found',
+			title: '404',
 			description: 'お探しのページは存在しないか、移動した可能性があります。',
 			emoji: '🤔'
 		},
 		500: {
-			title: 'Server Error',
+			title: '500',
 			description: 'サーバー側で問題が発生しました。しばらく経ってから再度お試しください。',
 			emoji: '😵'
 		}
@@ -31,7 +31,7 @@
 	);
 </script>
 
-<div class="min-h-[60vh] flex items-center justify-center">
+<div class="flex items-center justify-center min-h-dvh">
 	<Section>
 		<div class="relative text-center max-w-2xl mx-auto z-10">
 			<div
@@ -63,7 +63,7 @@
 		</div>
 
 		<div
-			class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-3xl h-96 bg-gradient-to-r from-indigo-100 to-purple-100 rounded-full mix-blend-multiply filter blur-3xl opacity-50 z-[-2] pointer-events-none"
+			class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-3xl h-96 bg-linear-to-r from-indigo-100 to-purple-100 rounded-full mix-blend-multiply filter blur-3xl opacity-50 z-[-2] pointer-events-none"
 		></div>
 	</Section>
 </div>

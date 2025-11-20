@@ -63,7 +63,7 @@
 		</div>
 		<div class="relative">
 			<div
-				class="absolute inset-0 bg-gradient-to-r from-primary to-purple-600 rounded-2xl transform rotate-3 opacity-20 blur-lg"
+				class="absolute inset-0 from-primary to-purple-600 rounded-2xl transform rotate-3 opacity-20 blur-lg bg-linear-to-r"
 			></div>
 			<img
 				src="https://placehold.co/800x600/f1f5f9/475569?text=Dashboard+UI"
